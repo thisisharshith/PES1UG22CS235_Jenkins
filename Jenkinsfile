@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'g++ -o PES1UG22CS235-1 main.cp' // Compiles C++ file
+                sh 'g++ -o PES1UG22CS235-1 main.cpp' // Compiles C++ file
             }
         }
 
